@@ -1,6 +1,6 @@
 import { MenuComponent } from "../menu/MenuComponent"
 
-export const Header = () => {
+export const HeaderComponent = () => {
   return(
     <header className="w-full flex items-center bg-[#9d4edd] p-3 md:px-8 md:py-5">
       <div className="flex justify-between w-full">
