@@ -46,7 +46,7 @@ export const MenuComponent = () => {
           >
               <a href="/features" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">Comandos</a>
               <a href="#" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">Sobre</a>
-              <a href="#" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">FAQ</a>
+              <a href="/faq" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">FAQ</a>
               {/* LINHA E BOTÃO SAIR \/ FEATURE FUTURA */}
               {/* <div className="border-t border-gray-100 my-1"></div>
               <a href="#" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-red-50 hover:text-red-600">Sair</a> */}
