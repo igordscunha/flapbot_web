@@ -1,11 +1,12 @@
 import { BrowserRouter as Router } from 'react-router'
 import { AppRoutes } from './routes/AppRoutes'
+import { Header } from './components/header/HeaderComponent'
 
 function App() {
   return (
     <>
       <Router>
-        {/* NavBar forever aqui */}
+        <Header/>
         <AppRoutes/>
       </Router>
     </>
