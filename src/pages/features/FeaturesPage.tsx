@@ -16,9 +16,9 @@ export const FeaturePage = () => {
 
           <div className="bg-[#E0AAFF] p-3 mb-4 rounded-sm text-[#10002B]">
 
-            🥉 para level 5+<br/>
-            🥈 para level 10+<br/>
-            🥇 para level 20+<br/>
+            🥉 para level 1+<br/>
+            🥈 para level 15+<br/>
+            🥇 para level 25+<br/>
             💎 para level 35+<br/>
             👑 para level 50+<br/>
           </div>
