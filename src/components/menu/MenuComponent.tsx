@@ -45,7 +45,7 @@ export const MenuComponent = () => {
               className={`absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-30 transform transition-all duration-200 ease-in-out ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}
           >
               <a href="/features" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">Comandos</a>
-              <a href="#" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">Sobre</a>
+              <a href="/quickstart" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">Quickstart</a>
               <a href="/faq" className="block px-4 py-2 text-sm text-[#9d4edd] hover:bg-gray-100 hover:text-[#3C096C]">FAQ</a>
               {/* LINHA E BOTÃO SAIR \/ FEATURE FUTURA */}
               {/* <div className="border-t border-gray-100 my-1"></div>
