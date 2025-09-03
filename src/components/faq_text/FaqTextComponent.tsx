@@ -5,12 +5,12 @@ interface FaqTextComponentProps {
 
 export const FaqTextComponent = ({ pergunta, resposta }: FaqTextComponentProps) => {
   return(
-    <div className="font-inconsolata tracking-tighter p-5">
+    <div className={`font-inconsolata tracking-tighter p-5`}>
       <p className="font-bold">
-        {pergunta}
+        P: {pergunta}
       </p>
       <p>
-        {resposta}
+        R: {resposta}
       </p>
     </div>
   )
