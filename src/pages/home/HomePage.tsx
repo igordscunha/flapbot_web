@@ -6,7 +6,7 @@ export const HomePage = () => {
 
       <div className="py-28 flex flex-col gap-16 md:gap-30 text-center md:w-2/5 md:h-screen">
         <div className="flex flex-col gap-3 md:gap-12">
-          <h3>Experimente a revolução nos seus servidores de Discord com FlapBot.</h3>
+          <h3>Experimente a revolução nos seus servidores do Discord com FlapBot.</h3>
 
           <p className="text-sm md:text-lg font-medium text-[#e6e8eb]">
             Comandos inteligentes e interativos que elevam cada conversa, evento, desafio e experiência.
@@ -27,10 +27,12 @@ export const HomePage = () => {
         </p>
       </div>
 
-      <div className="py-24 md:pb-60">
+      <div className="py-24 md:pb-60 flex flex-col justify-center items-center gap-6">
         <p className="text-center font-medium">
           Você pode ver detalhes dos comandos <a href="/features" className="underline hover:text-[#3C096C]">aqui.</a>
         </p>
+
+        <InviteButtonComponent>FLAPBOT FAÇA PARTE DO MEU SERVIDOR</InviteButtonComponent>
       </div>
     </main>
   )

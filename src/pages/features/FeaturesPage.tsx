@@ -1,34 +1,8 @@
 import { FeatureComponent } from "../../components/feature/FeatureComponent"
-import { InputTextComponent } from "../../components/input_text/InputTextComponent"
 
 export const FeaturePage = () => {
   return(
     <main className="bg-[#9d4edd] min-h-screen md:flex md:flex-col md:items-center">
-      {/* RANKING */}
-      <div className="md:w-3/5 md:pt-28">
-        <h2 className="text-xl text-center text-white py-6">Ranking de Usuários</h2>
-
-        <InputTextComponent>
-          O usuário recebe randomicamente entre 15 a 25 de XP por mensagens enviadas em qualquer canal e 10 de XP por minuto permanecido 
-          com o fone desmutado em canais do servidor.<br/><br/>
-
-          O ranking atual conta com 5 insígneas:<br/><br/>
-
-          <div className="bg-[#E0AAFF] p-3 mb-4 rounded-sm text-[#10002B]">
-
-            🥉 para level 1+<br/>
-            🥈 para level 15+<br/>
-            🥇 para level 25+<br/>
-            💎 para level 35+<br/>
-            👑 para level 50+<br/>
-          </div>
-
-          Você pode verificar o top-5 do servidor utilizando o slash command <span className="underline">/rank top.</span>
-        </InputTextComponent>
-      </div>
-      {/* FIM RANKING */}
-
-
 
       {/* SLASH COMMANDS */}
       <div className="md:w-3/5 md:pt-24">
