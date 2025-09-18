@@ -6,11 +6,11 @@ export const QuickStartPage = () => {
       <div className="pt-26 md:w-3/5">
         <InputTextComponent>
           <p>
-            Após adicionar o FlapBot ao seu servidor, é importante se atentar à algumas coisas:
+            Após adicionar o FlapBot ao seu servidor, é importante se atentar em algumas coisas:
             <br/><br/><br/>
             <span className="text-2xl">IMPORTANTE:</span>
             <br/><br/>
-            O FlapBot, por padrão, sempre priorizará mandar mensagens (de congratulações em caso de up level, por exemplo) no canal de texto que se chama 'geral'. Para configurar para o nome do canal de texto correto do seu servidor, você pode utilizar o comando:<br/> /confignameinit `nome do chat aqui`.
+            O FlapBot, por padrão, sempre priorizará mandar mensagens (de congratulações em caso de up level, por exemplo) no canal de texto que se chama 'geral'. Para configurar para o nome do canal de texto correto do seu servidor, você pode utilizar o comando:<br/> /confignameinit<br/> (comando somente visível para administradores)
             <br/><br/>
             Sobre as mensagens de congratulação para cada up de usuário, apesar de ser bacana ficar acompanhando o rush, no início pode acabar virando um 'spam', principalmente por conta do level baixo de todos. Então, caso você queira desativar as mensagens de up, utilize o comando /desativarmup e /ativarmup caso queira ativá-las novamente.
             <br/><br/>
@@ -20,7 +20,7 @@ export const QuickStartPage = () => {
       </div>
 
       {/* RANKING */}
-      <div className="md:w-3/5 md:py-28">
+      <div className="md:w-3/5 md:py-28 py-24">
         <h2 className="text-xl text-center text-white py-6">Ranking de Usuários</h2>
 
         <InputTextComponent>
