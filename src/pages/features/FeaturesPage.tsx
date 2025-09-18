@@ -17,6 +17,7 @@ export const FeaturePage = () => {
         <FeatureComponent comando="/ia" descricao="Faça uma pergunta para a melhor Inteligência Artificial atual."/>
         <FeatureComponent comando="/lembrete" descricao="Define uma data para um lembrete."/>
         <FeatureComponent comando="/letra" descricao="Busca através do Genius uma letra de uma música."/>
+        <FeatureComponent comando="/mup" descricao="Utilize false para desativar as mensagens de up do FlapBot ou true para ativá-las novamente."/>
         <FeatureComponent comando="/quemtajogando" descricao="Mostra quais usuários online do servidor estão jogando determinado jogo da Steam."/>
         <FeatureComponent comando="/quiz" descricao="Jogue um trivia."/>
         <FeatureComponent comando="/rank" opts={["usuario", "top", "medalhas"]} descricao="Possui três subcomandos. O subcomando `usuario` mostra o level e XP de um usuário específico. O subcomando `top` mostra o top-5 do ranking do servidor, caso exista 5 jogadores ranqueados. O subcomando `medalhas` mostra o quadro de medalhas."/>
