@@ -10,9 +10,9 @@ export const QuickStartPage = () => {
             <br/><br/><br/>
             <span className="text-2xl">IMPORTANTE:</span>
             <br/><br/>
-            O FlapBot, por padrão, sempre priorizará mandar mensagens (de congratulações em caso de up level, por exemplo) no canal de texto que se chama 'geral'. Para configurar para o nome do canal de texto correto do seu servidor, você pode utilizar o comando:<br/> /confignameinit<br/> (comando somente visível para administradores)
+            O FlapBot, por padrão, sempre priorizará mandar mensagens (de congratulações em caso de up level, por exemplo) no canal de texto que se chama 'geral'. Para configurar para o nome do canal de texto correto do seu servidor, você pode utilizar o comando: <span className="underline">/confignameinit</span> (comando visível somente para administradores).
             <br/><br/>
-            Sobre as mensagens de congratulação para cada up de usuário, apesar de ser bacana ficar acompanhando o rush, no início pode acabar virando um 'spam', principalmente por conta do level baixo de todos. Então, caso você queira desativar as mensagens de up, utilize o comando /desativarmup e /ativarmup caso queira ativá-las novamente.
+            Sobre as mensagens de congratulação para cada up de usuário, para ativá-las utilize o comando <span className="underline">/mup True</span> e <span className="underline">/mup False</span> caso queira desativá-las novamente.
             <br/><br/>
             Sobre as insígneas, o FlapBot precisa de permissão para poder modificar o nickname dos usuários, então conceda-o. Lembrando que, mesmo com a permissão garantida, o FlapBot não conseguirá editar nenhum usuário que esteja em um cargo acima e em hipótese nenhuma, por conta das políticas de segurança do próprio Discord, o FlapBot conseguirá editar o usuário 'owner' do servidor.
           </p>

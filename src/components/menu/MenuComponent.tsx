@@ -33,7 +33,7 @@ export const MenuComponent = () => {
       <div className="relative" ref={dropdownRef}>
           <button 
               onClick={toggleMenu}
-              className="flex items-center space-x-2 text-[#9d4edd] bg-[#f9f9f9] hover:text-[#3C096C] p-2 rounded-lg border border-transparent hover:border-gray-200 transition-colors focus:outline-none"
+              className="flex items-center shadow-lg/20 space-x-2 text-[#9d4edd] bg-[#f9f9f9] hover:text-[#3C096C] p-2 rounded-lg border border-transparent hover:border-gray-200 transition-colors focus:outline-none"
           >
               <span className="text-sm md:text-lg md:font-medium">Menu</span>
               <div className={`transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-180' : ''}`}>
